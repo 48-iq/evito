@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: evito
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show:
+      sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/evito
+    username: postgres
+    password: 1234
+jwt:
+  token:
+    secret: 1234
+admin:
+  register:
+    password: 1234
+
